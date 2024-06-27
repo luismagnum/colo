@@ -14,7 +14,7 @@ const Footer = () => {
                       <div class="lg:col-span-4 md:col-span-12">
                           <span class="text-2xl text-gray-500 font-semibold flex justify-center lg:justify-start">Colo Styles</span>
                           <p class="mt-3 text-gray-400 text-justify">
-                          Ya sea que necesites un corte de pelo rápido, un arreglo de barba o una experiencia de grooming completa, en Colo Styles 
+                          Ya sea que necesites un corte de pelo rápido, un arreglo de barba o una experiencia de cambio de look completo, en Colo Styles 
                           encontrarás todo lo que necesitas. Ven y descubre por qué somos la opción preferida de tantos clientes satisfechos.<br></br>
                           ¡Te esperamos!  
                           </p>
