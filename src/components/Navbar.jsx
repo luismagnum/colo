@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full z-20'>
       <div>
-        <div className='flex flex-row justify-between p-4 md:px-32 px-5 bg-gray-400 shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
+        <div className='flex flex-row justify-between p-2 md:px-32 px-5 bg-gray-400 shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
             <div className='flex flex-row items-center cursor-pointer'>
                 <span>
                     <img src={logob} alt='logo' width={100} />
@@ -69,7 +69,7 @@ const Navbar = () => {
                 )}
             </div>
         </div>
-        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-gray-300 text-gray-700 left-0 top-16 font-semibold text-xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
+        <div className={`${menu ? "translate-x-0" : "-translate-x-full"} lg:hidden flex flex-col absolute bg-gray-400 text-gray-700 left-0 top-14 font-semibold text-xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}>
         <Link
                  to='home'
                  spy={true} 
